@@ -1,5 +1,21 @@
 apiVersion: v1
 entries:
+  bh-main-backend:
+  - apiVersion: v2
+    appVersion: 7.29.911.54
+    created: "2021-02-26T12:55:39.775741+01:00"
+    dependencies:
+    - alias: bhPostgres
+      name: bh-postgres
+      repository: https://jrcodeza.github.io/avast-onpremise-k3s-helm/
+      version: 0.2.0
+    description: A Helm chart for Kubernetes
+    digest: 3fd9c42449c0681c980513c835ab5c39ad6f9c8674ffab21245742a4abfc1aff
+    name: bh-main-backend
+    type: application
+    urls:
+    - https://jrcodeza.github.io/avast-onpremise-k3s-helm/bh-main-backend-0.2.0.tgz
+    version: 0.2.0
   bh-postgres:
   - apiVersion: v2
     appVersion: 10.4.2
