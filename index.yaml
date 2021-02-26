@@ -3,7 +3,7 @@ entries:
   bh-main-backend:
   - apiVersion: v2
     appVersion: 7.29.911.54
-    created: "2021-02-26T12:55:39.775741+01:00"
+    created: "2021-02-26T13:51:55.329591+01:00"
     dependencies:
     - alias: bhPostgres
       name: bh-postgres
@@ -19,7 +19,17 @@ entries:
   bh-postgres:
   - apiVersion: v2
     appVersion: 10.4.2
-    created: "2021-02-26T12:45:10.259505+01:00"
+    created: "2021-02-26T13:51:55.330837+01:00"
+    description: A Helm chart for Kubernetes
+    digest: a808b70e0eb156a87d377fe289306fcb8fd94ce1b24597b9ccdfc566323faaea
+    name: bh-postgres
+    type: application
+    urls:
+    - https://jrcodeza.github.io/avast-onpremise-k3s-helm/bh-postgres-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 10.4.2
+    created: "2021-02-26T13:51:55.33044+01:00"
     description: A Helm chart for Kubernetes
     digest: 51122729e4653fe9d9ad60ba4ca9d914607cb3d5f9a7dc2f5e67455f28929167
     name: bh-postgres
@@ -29,7 +39,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 10.4.2
-    created: "2021-02-26T12:45:10.259109+01:00"
+    created: "2021-02-26T13:51:55.32999+01:00"
     description: A Helm chart for Kubernetes
     digest: 92d21c3e48fa490c91a313088affe2117728d6ee97a324e9d43bebc2c1df1f54
     name: bh-postgres
@@ -37,4 +47,4 @@ entries:
     urls:
     - https://jrcodeza.github.io/avast-onpremise-k3s-helm/bh-postgres-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-26T12:45:10.258565+01:00"
+generated: "2021-02-26T13:51:55.328471+01:00"
