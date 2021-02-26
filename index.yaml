@@ -1,14 +1,1 @@
-apiVersion: v1
-entries:
-  bh-postgres:
-  - apiVersion: v2
-    appVersion: 10.4.2
-    created: "2021-02-26T10:39:49.69093+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 92d21c3e48fa490c91a313088affe2117728d6ee97a324e9d43bebc2c1df1f54
-    name: bh-postgres
-    type: application
-    urls:
-    - bh-postgres-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-02-26T10:39:49.690334+01:00"
+
