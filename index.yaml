@@ -3,7 +3,17 @@ entries:
   bh-postgres:
   - apiVersion: v2
     appVersion: 10.4.2
-    created: "2021-02-26T10:42:42.935515+01:00"
+    created: "2021-02-26T12:38:11.426915+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 51122729e4653fe9d9ad60ba4ca9d914607cb3d5f9a7dc2f5e67455f28929167
+    name: bh-postgres
+    type: application
+    urls:
+    - https://jrcodeza.github.io/avast-onpremise-k3s-helm/bh-postgres-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 10.4.2
+    created: "2021-02-26T12:38:11.426496+01:00"
     description: A Helm chart for Kubernetes
     digest: 92d21c3e48fa490c91a313088affe2117728d6ee97a324e9d43bebc2c1df1f54
     name: bh-postgres
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://jrcodeza.github.io/avast-onpremise-k3s-helm/bh-postgres-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-26T10:42:42.934885+01:00"
+generated: "2021-02-26T12:38:11.42519+01:00"
